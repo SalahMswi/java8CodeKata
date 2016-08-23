@@ -19,7 +19,7 @@ public class Exercise6Test {
         /**
          * Create a stream with string values "a" "b" "c" by using {@link Stream#of}
          */
-        
+
         Stream<String> abcStream = Stream.of("a","b","c");
 
         List<String> abcList = abcStream.collect(Collectors.toList());
